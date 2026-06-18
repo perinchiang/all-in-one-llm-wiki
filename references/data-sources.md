@@ -17,7 +17,7 @@ Agent value:
 
 ## AI Platform Memory Exports
 
-Supported pattern: ChatGPT, Claude, Gemini, Perplexity, Doubao, or any platform that can expose "memory" or long-term profile text.
+Supported pattern: [ChatGPT](https://chatgpt.com/), [Claude](https://claude.ai/), [Gemini](https://gemini.google.com/), [Perplexity](https://www.perplexity.ai/), [豆包](https://www.doubao.com/), or any platform that can expose "memory" or long-term profile text.
 
 Manual prompt to give each AI platform:
 

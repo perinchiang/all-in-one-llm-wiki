@@ -190,11 +190,11 @@ Agent 能力：
 
 适合平台：
 
-- ChatGPT
-- Claude
-- Gemini
-- Perplexity
-- 豆包
+- [ChatGPT](https://chatgpt.com/)
+- [Claude](https://claude.ai/)
+- [Gemini](https://gemini.google.com/)
+- [Perplexity](https://www.perplexity.ai/)
+- [豆包](https://www.doubao.com/)
 - 其他带长期记忆/用户画像的 AI
 
 通用提示词：
@@ -494,55 +494,100 @@ Agent 能力：
 
 - 不公开内网地址、种子列表、认证信息、完整目录。
 
-### 11. 日历、咖啡、生活记录
+### 11. 日历数据：Google Calendar / Apple iCloud Calendar
 
-来源：
+日历数据适合沉淀"时间模式"和"长期节奏"，不要把完整日程、地点、私人事件直接公开。建议只让 Agent 读取摘要层。
 
-- ICS / CalDAV
-- Markdown 日志
-- CSV / 表格
-- 手动记录
+#### 推荐入口
 
-建议沉淀：
+| 平台 / 数据源              | 推荐方式                         | 官方入口                                                                                                                                                                                      | 适合沉淀                        |
+| --------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| Google Calendar       | 导出 ICS / Google Calendar API | [Google Calendar 导出](https://support.google.com/calendar/answer/37111) / [Google Calendar API Events.list](https://developers.google.com/workspace/calendar/api/v3/reference/events/list) | 日程频率、固定安排、忙闲时间、重复事件、长期节奏    |
+| Apple iCloud Calendar | iCloud 日历 / CalDAV / 第三方客户端  | [Apple App-Specific Passwords](https://support.apple.com/en-us/102654)                                                                                                                    | iCloud 日历同步、重复事件、生活节奏、跨设备日程 |
 
-- 频率
-- 偏好
-- 时间模式
-- 消费区间
-- 作息线索
+#### 建议沉淀
 
-Agent 能力：
+* 固定安排：课程、考试、会议、训练、家庭事务。
+* 时间模式：高频忙碌时段、空闲时段、周末/工作日差异。
+* 重复事件：每周例行、长期任务、定期维护事项。
+* 作息线索：晚睡、午休、运动、学习和工作节奏。
+* 可行动建议：什么时候适合学习、休息、运动、处理杂事。
 
-- 更合理地安排任务和休息。
-- 给生活建议时结合真实偏好。
+#### Agent 能力
 
-### 12. 服务账号和工具链
+* 更合理地安排任务和休息。
+* 在推荐计划时避开固定日程和高压时段。
+* 结合真实生活节奏给建议，而不是只给通用时间管理模板。
+* 发现长期模式，例如"周末更容易失控""晚上适合轻任务"。
 
-可用来源：
+#### 隐私建议
 
-- 手动清单
-- 邮箱注册邮件摘要（Hermes Agent 用户可用 [Email 集成](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/email) 自动扫描）
-- 密码管理器分类导出
-- 云平台控制台清单
+* 不公开完整日历。
+* 不公开精确地点、家庭事件、医疗预约、私人会面。
+* 公开 demo 只展示聚合摘要，例如"每周固定日程 6 个""晚上学习效率更高"。
+* 如果使用 CalDAV / iCloud / Google 授权，不要把账号、App 专用密码、OAuth token 写入 Wiki。
 
-建议沉淀：
+### 12. Google 账号生态、邮箱注册邮件摘要和 GitHub
 
-- AI/ML 平台
-- 开发者工具
-- 云服务
-- 通讯工具
-- 自托管服务
-- 自动化平台
+这一节不是密码库，而是工具链地图。目标是让 Agent 知道用户已经有哪些平台、服务和自动化入口。
+只记录能力、类别、授权方式和摘要，不保存任何真实密钥。
 
-Agent 能力：
+#### 推荐入口
 
-- 推荐方案时使用你已有工具。
-- 避免建议你没有账号、没有预算或不适合的服务。
-- 更好地设计自动化工作流。
+| 类型               | 推荐方式                                           | 官方入口                                                                                                                                                 | 适合沉淀                                              |
+| ---------------- | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| Google 账号生态      | Google Takeout / OAuth / API / App Password 兜底 | [Google Takeout](https://support.google.com/accounts/answer/3024190) / [Google App Passwords](https://support.google.com/accounts/answer/185833)     | YouTube、Chrome、Gmail、Calendar、Drive 等 Google 数据入口 |
+| Gmail / 邮箱注册邮件摘要 | Gmail API / IMAP / Hermes Email 集成             | [Gmail API Guides](https://developers.google.com/workspace/gmail/api/guides)                                                                         | 已注册服务、订阅、账单类别、工具链线索                               |
+| GitHub           | Fine-grained PAT / GitHub App / SSH            | [GitHub Personal Access Tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) | Repo、Issue、PR、Star、项目活动、技术兴趣                      |
 
-隐私建议：
+#### 建议沉淀
 
-- 永远不要写入密码、API Key、恢复码、Cookie、OAuth token。
+##### Google 账号生态
+
+* YouTube：订阅频道、播放列表、收藏、观看主题摘要。
+* Chrome：书签、Top domains、工具链网站、AI/开发/学习类访问摘要。
+* Gmail：服务注册邮件摘要、订阅类别、账单类别、项目邮件线索。
+* Calendar：日程节奏、固定安排、忙闲时间。
+* Drive：项目文档、学习资料、公开/私有文档分类。
+
+##### 邮箱注册邮件摘要
+
+* 已注册服务类别：AI 平台、云服务、开发工具、通讯工具、订阅服务。
+* 账号状态：是否常用、是否付费、是否和当前项目有关。
+* 服务线索：注册时间、账单提醒、产品通知、登录提醒。
+* 工具链地图：用户实际拥有和可能可调用的服务入口。
+
+##### GitHub
+
+* Repo：正在维护的项目、长期项目、废弃项目。
+* Issue / PR：遇到的问题、决策过程、技术债。
+* Star：技术兴趣、想研究的项目、工具偏好。
+* Commit 活动：最近真正做了什么，而不是只看计划。
+* README / Docs：项目目标、使用方式、自动化入口。
+
+#### Agent 能力
+
+* 推荐方案时优先使用用户已经有的工具。
+* 避免推荐用户没有账号、没有预算、不能访问或不适合的平台。
+* 设计自动化工作流时知道可用入口，例如 Gmail、Calendar、GitHub、Google Takeout。
+* 帮用户维护"我到底有哪些账号和服务"的工具地图。
+* 结合 GitHub 项目活动，判断用户最近真正投入的方向。
+
+#### 凭据和授权规则
+
+* 优先使用 OAuth、官方 API、Fine-grained Token。
+* Google App Password 只作为不支持 OAuth 的旧式客户端或特殊场景兜底。
+* Token、Cookie、App Password、API Key 只允许放在 `.env`、系统 Keychain、密码管理器或 Secret Manager。
+* Wiki 里只记录"需要什么权限"和"在哪里生成"，不要记录真实密钥。
+* 邮箱扫描只做摘要和分类，不保存完整邮件正文。
+
+#### 隐私建议
+
+* 永远不要写入密码、API Key、恢复码、Cookie、OAuth token。
+* Gmail 只保存服务类别和摘要，不保存私人邮件全文。
+* Chrome / YouTube / Gmail 公开 demo 只展示聚合统计，不展示逐条记录。
+* GitHub 私有仓库信息默认只进私有 Wiki。
+* 公开 demo 只展示工具类别，例如"AI 平台 8 个、云服务 5 类、GitHub 项目 12 个"。
 
 ## 页面模板
 
