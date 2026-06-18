@@ -1,0 +1,4 @@
+interface:
+  display_name: "All in One LLM Wiki"
+  short_description: "Build AI-readable personal wiki from exports"
+  default_prompt: "Use $all-in-one-llm-wiki to turn my exported data sources into an AI-readable LLM Wiki and presentation outline."
