@@ -4,7 +4,20 @@
 
 把你的数字生活导出成一个 **AI 可读的 LLM Wiki**，让 Agent 不再从零认识你。
 
-这不是一个“给人看的漂亮知识库”。它更像一个给 AI/Agent 使用的长期上下文层：把笔记、AI 记忆、音乐、影视、视频平台、浏览器、健康、游戏、工具链、NAS 等数据整理成结构化 Markdown Wiki，让 Agent 能在回答、推荐、规划和自动化时读懂你的真实背景。
+这不是一个"给人看的漂亮知识库"。它更像一个给 AI/Agent 使用的长期上下文层：把笔记、AI 记忆、音乐、影视、视频平台、浏览器、健康、游戏、工具链、NAS 等数据整理成结构化 Markdown Wiki，让 Agent 能在回答、推荐、规划和自动化时读懂你的真实背景。
+
+## 快速安装（Hermes Agent Skill）
+
+```bash
+mkdir -p ~/.hermes/skills
+git clone https://github.com/perinchiang/all-in-one-llm-wiki ~/.hermes/skills/all-in-one-llm-wiki
+```
+
+安装后，对 Hermes 说：
+
+> Use all-in-one-llm-wiki to create a private .wiki/ in my vault from my exported Bilibili/Spotify/AI memory files.
+
+其他支持 Skill 的 Agent（Claude Code、Codex 等）也可以直接使用 `SKILL.md`。
 
 ## 它解决什么问题
 
