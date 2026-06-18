@@ -341,7 +341,7 @@ Agent 能力：
 - 结合 Garmin 当前数据判断变化。
 - 给更贴近现实的作息和运动建议。
 
-### 6. Spotify：Spotify Web API
+### 6. [Spotify](https://www.spotify.com/)：Spotify Web API
 
 推荐路径：
 
@@ -360,6 +360,8 @@ Agent 能力：
 - 本地开发可用隧道、反代或公网 HTTPS 回调。
 - 不要把 client secret 放进公开仓库。
 
+Hermes Agent 用户可直接使用内置 Spotify 集成，详见 [Spotify 文档](https://hermes-agent.nousresearch.com/docs/user-guide/features/spotify)。
+
 建议沉淀：
 
 - 歌单数量
@@ -374,7 +376,7 @@ Agent 能力：
 - 用你的真实歌单理解音乐偏好。
 - 避免只按平台热门推荐。
 
-### 7. 豆瓣：个人影音书数据
+### 7. [豆瓣](https://www.douban.com/)：个人影音书数据
 
 可行方式：
 
@@ -519,7 +521,7 @@ Agent 能力：
 可用来源：
 
 - 手动清单
-- 邮箱注册邮件摘要
+- 邮箱注册邮件摘要（Hermes Agent 用户可用 [Email 集成](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/email) 自动扫描）
 - 密码管理器分类导出
 - 云平台控制台清单
 

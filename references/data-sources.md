@@ -121,7 +121,7 @@ Privacy:
 
 - Do not put full `export.xml` into a public repository.
 
-## Spotify
+## [Spotify](https://www.spotify.com/)
 
 Method options:
 
@@ -141,7 +141,7 @@ Agent value:
 - Choose music by task, mood, or context.
 - Explain recommendations through taste clusters rather than generic popularity.
 
-## Douban
+## [豆瓣](https://www.douban.com/)
 
 Method options:
 
@@ -211,7 +211,7 @@ Privacy:
 
 Method:
 
-- Scan user-provided account lists, email summaries, password manager exports, or manual inventory only with explicit permission.
+- Scan user-provided account lists, email summaries ([Hermes Email 集成](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/email)), password manager exports, or manual inventory only with explicit permission.
 
 Summarize:
 
