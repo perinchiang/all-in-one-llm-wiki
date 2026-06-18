@@ -1,5 +1,3 @@
-⚠️  无法加载凭证文件
-⚠️  无法加载凭证文件
 # All in One LLM Wiki
 
 > [中文版](README.md) | [English](README_EN.md)
