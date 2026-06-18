@@ -1,6 +1,7 @@
+⚠️  无法加载凭证文件
 # All in One LLM Wiki
 
-> 中文优先 | [English entry](#english-entry)
+> [中文版](README.md) | [English](README_EN.md)
 
 把你的数字生活导出成一个 **AI 可读的 LLM Wiki**，让 Agent 不再从零认识你。
 
@@ -671,39 +672,3 @@ confidence: high
 - Privacy: raw data private; public version uses aggregates only
 - Notes: parser assumptions, skipped files, anomalies
 ```
-
-## English entry
-
-All in One LLM Wiki is a practical ingestion layer for building an AI-readable personal context wiki.
-
-It helps you turn personal exports and app data into structured Markdown pages that agents can read:
-
-- notes and Obsidian vaults
-- AI memory exports from ChatGPT, Claude, Gemini, Perplexity, Doubao, etc.
-- Bilibili history/favorites/following via CLI
-- Garmin summaries via script
-- Apple Health export from iPhone
-- Spotify playlists and saved tracks via Web API
-- Douban media/book taste via saved profile data
-- Chrome and YouTube data via Google Takeout
-- Steam library via Steam Web API
-- calendar, coffee, lifestyle logs
-- service accounts, toolchains, NAS/media libraries
-
-The project is privacy-first:
-
-- keep raw exports private
-- publish only aggregate summaries
-- mark source and confidence
-- separate facts from inferences
-- build a private complete wiki and a public redacted story
-
-Suggested workflow:
-
-1. Export data from each platform.
-2. Save raw files under `raw/`.
-3. Generate `entities/` and `concepts/` Markdown pages.
-4. Update `index.md` and `log.md`.
-5. Let your AI agent read the wiki before answering, recommending, or planning.
-
-This project complements existing LLM Wiki frameworks by focusing on real-world digital-life data sources and their ingestion methods.
