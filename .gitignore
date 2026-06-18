@@ -2,17 +2,52 @@
 Thumbs.db
 __pycache__/
 *.py[cod]
+
+# Secrets and local configuration
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*token*
+*secret*
+*credential*
+*cookies*
+
+# Dependencies and build outputs
 node_modules/
 dist/
 build/
 *.log
+
+# Private LLM Wiki data
+.wiki/
 wiki/raw/
 raw/
+private/
+secrets/
+
+# Platform exports and sensitive raw data
 *.zip
 *.sqlite
 *.db
 *.xml
 *.jsonl
+*Takeout*
+*takeout*
+*export.xml*
+*apple-health*
+*Apple-Health*
+*garmin*
+*Garmin*
+*history*
+*History*
+*browser*
+*Browser*
+*chrome*
+*Chrome*
+*bilibili-history*
+*youtube-history*
