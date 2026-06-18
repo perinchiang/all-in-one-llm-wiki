@@ -25,7 +25,7 @@ Do not copy another user's personal profile into outputs. Treat all examples as 
 Prefer this folder layout:
 
 ```text
-wiki/
+.wiki/
   SCHEMA.md
   index.md
   log.md
