@@ -40,11 +40,15 @@ Agent value:
 - Preserve differences between platforms.
 - Reduce repeated user onboarding.
 
-## Bilibili Via CLI
+## Bilibili Via [bilibili-cli](https://github.com/JimmyLJX/bilibili-cli)
 
 Method:
 
-1. Install and authenticate a Bilibili CLI that can export history, favorites, and following lists.
+1. Install and authenticate bilibili-cli:
+
+   ```bash
+   pip install bilibili-cli
+   ```
 2. Export:
    - recent watch history
    - favorite folders and items
@@ -71,11 +75,13 @@ Privacy:
 
 - Do not publish raw watch history without review.
 
-## Garmin Via Script
+## [Garmin](https://connect.garmin.com/) Via Script
 
 Method:
 
-1. Use Garmin Connect credentials or an approved local session.
+1. Use [Garmin Connect](https://connect.garmin.com/app) credentials or an approved local session.
+   - 国际版：https://connect.garmin.com/app
+   - 中国版：https://connect.garmin.cn/app/
 2. Fetch recent daily summaries, sleep, steps, activities, and personal records.
 3. Save raw JSON privately under `raw/health/garmin/`.
 4. Summarize trends and anomalies in `entities/health-garmin.md`.
@@ -154,11 +160,11 @@ Agent value:
 
 - Recommend films, shows, books, and games based on actual ratings and comments.
 
-## Google Takeout / Chrome / YouTube
+## [Google Takeout](https://takeout.google.com/) / Chrome / YouTube
 
 Chrome:
 
-1. Use Google Takeout for Chrome bookmarks/history/settings when available.
+1. Use [Google Takeout](https://takeout.google.com/) for Chrome bookmarks/history/settings when available.
 2. For history, prefer aggregate summary over raw URL storage.
 3. Summarize top domains, categories, date range, AI tools, dev tools, study tools, local services.
 

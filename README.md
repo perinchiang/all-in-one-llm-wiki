@@ -224,11 +224,15 @@ Agent 能力：
 - 很多平台没有“一键导出记忆”按钮，实际做法通常是直接询问它“你记得我什么”，再手动保存回答。
 - 这类数据可能包含健康、家庭、账号、位置等敏感信息，默认只进私有库。
 
-### 3. B 站：通过 bilibili-cli
+### 3. B 站：通过 [bilibili-cli](https://github.com/JimmyLJX/bilibili-cli)
 
-实践中可行的路径是：用 B 站 CLI 登录后导出观看历史、收藏夹、关注列表。
+安装：
 
-示例流程，命令需按你使用的 CLI 调整：
+```bash
+pip install bilibili-cli
+```
+
+登录后导出观看历史、收藏夹、关注列表：
 
 ```bash
 bili login
@@ -256,13 +260,18 @@ Agent 能力：
 - 不建议公开完整观看历史。
 - 公开展示时只用分类占比和少量脱敏示例。
 
-### 4. Garmin：通过 Python 脚本
+### 4. [Garmin](https://connect.garmin.com/)：通过 Python 脚本
 
 可用库：
 
 ```bash
 pip install garminconnect
 ```
+
+登录链接确认邮箱和密码：
+
+- 国际版：https://connect.garmin.com/app
+- 中国版：https://connect.garmin.cn/app/
 
 推荐做法：
 
@@ -394,11 +403,11 @@ Agent 能力：
 - 短评可能暴露个人情绪和经历，公开前要筛。
 - 如果自爬，请尊重平台规则和频率限制。
 
-### 8. Google Takeout：Chrome / YouTube
+### 8. [Google Takeout](https://takeout.google.com/)：Chrome / YouTube
 
 导出入口：
 
-1. 打开 Google Takeout。
+1. 打开 [Google Takeout](https://takeout.google.com/)。
 2. 勾选 Chrome、YouTube and YouTube Music，或其他需要的数据。
 3. 下载 ZIP。
 
