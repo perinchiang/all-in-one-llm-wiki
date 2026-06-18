@@ -31,12 +31,12 @@ All in One LLM Wiki 的目标是：
 
 例如：
 
-- 导入 Spotify 后，Agent 可以按你的音乐品味和当前场景选择歌单。
-- 导入豆瓣后，Agent 推荐影视和书时不再只看热门榜。
-- 导入 B 站 / YouTube 后，Agent 能知道你最近真正关注的学习和娱乐主题。
-- 导入 Chrome / Google Takeout 后，Agent 能理解你的工具链、项目现场和注意力分布。
-- 导入 Garmin / Apple Health 后，Agent 可以结合睡眠、步数、运动记录给更接地气的生活建议。
-- 导入 AI 平台记忆后，Agent 可以合并多个 AI 对你的片段理解，减少重复解释。
+- 导入 [Spotify](#6-spotifyspotify-web-api) 后，Agent 可以按你的音乐品味和当前场景选择歌单。
+- 导入[豆瓣](#7-豆瓣个人影音书数据)后，Agent 推荐影视和书时不再只看热门榜。
+- 导入 [B 站](#3-b-站通过-bilibili-cli) / [YouTube](#8-google-takeoutchrome--youtube) 后，Agent 能知道你最近真正关注的学习和娱乐主题。
+- 导入 [Chrome](#8-google-takeoutchrome--youtube) / [Google Takeout](#8-google-takeoutchrome--youtube) 后，Agent 能理解你的工具链、项目现场和注意力分布。
+- 导入 [Garmin](#4-garmin通过-python-脚本) / [Apple Health](#5-apple-health手机健康-app-导出) 后，Agent 可以结合睡眠、步数、运动记录给更接地气的生活建议。
+- 导入 [AI 平台记忆](#2-ai-平台记忆导出)后，Agent 可以合并多个 AI 对你的片段理解，减少重复解释。
 
 ## 和 llm-wiki 的关系
 
