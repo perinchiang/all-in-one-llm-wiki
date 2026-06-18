@@ -6,7 +6,22 @@
 
 这不是一个"给人看的漂亮知识库"。它更像一个给 AI/Agent 使用的长期上下文层：把笔记、AI 记忆、音乐、影视、视频平台、浏览器、健康、游戏、工具链、NAS 等数据整理成结构化 Markdown Wiki，让 Agent 能在回答、推荐、规划和自动化时读懂你的真实背景。
 
-## 快速安装（Hermes Agent Skill）
+## 项目定位
+
+当前版本是一个 **通用 Agent Skill / starter kit**：
+
+- `SKILL.md`：给支持 Skill 的 Agent 读取的执行说明。
+- `references/`：数据源、隐私、Schema、展示叙事的参考文档。
+- `scripts/`：可改造的本地初始化和导入示例。
+- `examples/demo-wiki/`：公开安全的合成 demo。
+
+它不是全自动采集器，也不默认读取你的隐私数据。真实导入前，应该由你明确提供数据源或授权范围。
+
+## 快速安装（通用 Agent Skill）
+
+这个仓库不是 Hermes 专属。任何能读取仓库文件和 `SKILL.md` 的 Agent 都可以使用。
+
+### Hermes
 
 ```bash
 mkdir -p ~/.hermes/skills
@@ -17,7 +32,47 @@ git clone https://github.com/perinchiang/all-in-one-llm-wiki ~/.hermes/skills/al
 
 > Use all-in-one-llm-wiki to create a private .wiki/ in my vault from my exported Bilibili/Spotify/AI memory files.
 
-其他支持 Skill 的 Agent（Claude Code、Codex 等）也可以直接使用 `SKILL.md`。
+### Claude Code / Codex / 其他本地 Agent
+
+把仓库 clone 到你的项目或 Agent 可读取的 skills/tools 目录，然后让 Agent 读取 `SKILL.md`：
+
+```bash
+git clone https://github.com/perinchiang/all-in-one-llm-wiki
+```
+
+可直接对 Agent 说：
+
+> Read `SKILL.md` in `all-in-one-llm-wiki` and use it to initialize a private `.wiki/` from my authorized exports.
+
+如果你的 Agent 没有 Skill 机制，也可以把 `SKILL.md`、`references/privacy.md`、`references/wiki-schema.md` 当作普通 Markdown 指南使用。
+
+## 5 分钟本地体验
+
+先不要放真实隐私数据，用合成 demo 跑通结构：
+
+```bash
+git clone https://github.com/perinchiang/all-in-one-llm-wiki
+cd all-in-one-llm-wiki
+python scripts/init_wiki.py --demo
+```
+
+运行后会生成：
+
+```text
+.wiki/
+  SCHEMA.md
+  index.md
+  log.md
+  entities/demo-profile.md
+  concepts/context-home.md
+  raw/
+```
+
+正式给自己建私有 Wiki 时：
+
+```bash
+python scripts/init_wiki.py
+```
 
 ## 它解决什么问题
 
@@ -296,7 +351,8 @@ export GARMIN_PASSWORD="your-password"
 .wiki/raw/health/garmin/
 ```
 
-4. Wiki 页面只写摘要和趋势。
+4. 可从 `scripts/garmin_to_wiki_example.py` 开始改造；脚本默认输出到 `.wiki/`，也可以用 `LLM_WIKI_DIR` 指定目录。
+5. Wiki 页面只写摘要和趋势。
 
 Agent 能力：
 
@@ -657,6 +713,7 @@ confidence: high
 - 原始数据先本地解析，必要时加密保存。
 - Agent 默认读摘要层，不默认读 raw 层。
 - 每次生成 PPT、视频、README、截图前，先做一次脱敏检查。
+- 开源或发布前按 `PUBLISHING_CHECKLIST.md` 做最后检查。
 
 ## 推荐的 `log.md` 记录格式
 

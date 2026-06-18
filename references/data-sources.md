@@ -83,10 +83,10 @@ Method:
    - 国际版：https://connect.garmin.com/app
    - 中国版：https://connect.garmin.cn/app/
 2. Fetch recent daily summaries, sleep, steps, activities, and personal records.
-3. Save raw JSON privately under `raw/health/garmin/`.
+3. Save raw JSON privately under `.wiki/raw/health/garmin/`.
 4. Summarize trends and anomalies in `entities/health-garmin.md`.
 
-Use `scripts/garmin_to_wiki_example.py` as a starter, then adapt fields and auth handling.
+Use `scripts/garmin_to_wiki_example.py` as a starter, then adapt fields and auth handling. The script writes to `.wiki/` by default; set `LLM_WIKI_DIR` to choose another directory.
 
 Agent value:
 

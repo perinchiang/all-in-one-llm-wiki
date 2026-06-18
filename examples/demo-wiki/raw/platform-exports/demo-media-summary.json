@@ -1,0 +1,22 @@
+{
+  "source": "synthetic demo media summary",
+  "date_range": {
+    "start": "2025-10-01",
+    "end": "2025-12-31"
+  },
+  "clusters": [
+    {
+      "name": "AI tooling",
+      "count": 18
+    },
+    {
+      "name": "software engineering",
+      "count": 11
+    },
+    {
+      "name": "personal knowledge management",
+      "count": 9
+    }
+  ],
+  "privacy": "synthetic public-safe data"
+}

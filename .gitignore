@@ -25,10 +25,17 @@ build/
 
 # Private LLM Wiki data
 .wiki/
+wiki/
 wiki/raw/
 raw/
 private/
 secrets/
+
+# Public-safe synthetic demo data
+!examples/
+!examples/demo-wiki/
+!examples/demo-wiki/raw/
+!examples/demo-wiki/raw/**
 
 # Platform exports and sensitive raw data
 *.zip

@@ -18,7 +18,9 @@ Do not copy another user's personal profile into outputs. Treat all examples as 
 3. Use `references/data-sources.md` for source-specific ingestion methods.
 4. Use `references/wiki-schema.md` to create wiki pages, index entries, raw source storage, and logs.
 5. Summarize each source into agent-facing pages: facts, preferences, recurring behaviors, constraints, evidence, and open questions.
-6. Create a privacy-safe story or presentation only after the wiki layer exists. Use `references/presentation.md` and `assets/ppt-prompt-template.md`.
+6. For a new wiki, use `scripts/init_wiki.py` to create the skeleton; use `--demo` only for synthetic public-safe examples.
+7. Create a privacy-safe story or presentation only after the wiki layer exists. Use `references/presentation.md` and `assets/ppt-prompt-template.md`.
+8. Before publishing any demo, deck, screenshot, or prompt, use `PUBLISHING_CHECKLIST.md`.
 
 ## Output Shape
 
@@ -86,4 +88,7 @@ Examples:
 - `references/privacy.md`: redaction and publishability rules.
 - `references/presentation.md`: converting the wiki process into a video/PPT narrative.
 - `assets/ppt-prompt-template.md`: prompt template for Kimi, Claude, Gamma, or other PPT tools.
+- `PUBLISHING_CHECKLIST.md`: final public-release redaction checklist.
+- `examples/demo-wiki/`: synthetic demo wiki for first-run testing.
+- `scripts/init_wiki.py`: create a private `.wiki/` skeleton or copy the synthetic demo.
 - `scripts/garmin_to_wiki_example.py`: generic Garmin Connect to wiki JSON/Markdown starter script.

@@ -6,7 +6,22 @@ Export your digital life into an **AI-readable LLM Wiki**, so your Agent no long
 
 This is not a "pretty knowledge base for humans." It's more like a long-term context layer for AI/Agents: organizing notes, AI memory, music, movies, video platforms, browsers, health, games, toolchains, NAS, and other data into a structured Markdown Wiki, so that Agents can understand your real background when answering, recommending, planning, and automating.
 
-## Quick Install (Hermes Agent Skill)
+## Project Positioning
+
+The current version is a **general Agent Skill / starter kit**:
+
+- `SKILL.md`: execution guidance for agents that support skills.
+- `references/`: data-source, privacy, schema, and presentation references.
+- `scripts/`: local initialization and import examples that you can adapt.
+- `examples/demo-wiki/`: public-safe synthetic demo.
+
+It is not a fully automated data collector, and it does not read your private data by default. Real ingestion should happen only after you provide a source or authorize a scope.
+
+## Quick Install (General Agent Skill)
+
+This repository is not Hermes-specific. Any agent that can read repository files and `SKILL.md` can use it.
+
+### Hermes
 
 ```bash
 mkdir -p ~/.hermes/skills
@@ -17,7 +32,47 @@ After installation, tell Hermes:
 
 > Use all-in-one-llm-wiki to create a private .wiki/ in my vault from my exported Bilibili/Spotify/AI memory files.
 
-Other Agents that support Skills (Claude Code, Codex, etc.) can also directly use `SKILL.md`.
+### Claude Code / Codex / Other Local Agents
+
+Clone this repository into your project or into a skills/tools directory that your agent can read, then ask the agent to read `SKILL.md`:
+
+```bash
+git clone https://github.com/perinchiang/all-in-one-llm-wiki
+```
+
+You can tell the agent:
+
+> Read `SKILL.md` in `all-in-one-llm-wiki` and use it to initialize a private `.wiki/` from my authorized exports.
+
+If your agent has no skill mechanism, you can still use `SKILL.md`, `references/privacy.md`, and `references/wiki-schema.md` as plain Markdown guidance.
+
+## 5-Minute Local Demo
+
+Start with synthetic data instead of real private exports:
+
+```bash
+git clone https://github.com/perinchiang/all-in-one-llm-wiki
+cd all-in-one-llm-wiki
+python scripts/init_wiki.py --demo
+```
+
+This creates:
+
+```text
+.wiki/
+  SCHEMA.md
+  index.md
+  log.md
+  entities/demo-profile.md
+  concepts/context-home.md
+  raw/
+```
+
+To create a private wiki skeleton for yourself:
+
+```bash
+python scripts/init_wiki.py
+```
 
 ## What Problem Does It Solve
 
@@ -296,7 +351,8 @@ export GARMIN_PASSWORD="your-password"
 .wiki/raw/health/garmin/
 ```
 
-4. Wiki pages should only contain summaries and trends.
+4. Start from `scripts/garmin_to_wiki_example.py` and adapt it. The script writes to `.wiki/` by default; set `LLM_WIKI_DIR` to choose another directory.
+5. Wiki pages should only contain summaries and trends.
 
 Agent capabilities:
 
@@ -657,6 +713,7 @@ Security baseline:
 - Parse raw data locally first; encrypt when necessary.
 - Agent reads the summary layer by default — not the raw layer.
 - Before generating any PPT, video, README, or screenshot, perform an anonymization check first.
+- Before publishing, use `PUBLISHING_CHECKLIST.md` as a final pass.
 
 ## Recommended `log.md` Format
 

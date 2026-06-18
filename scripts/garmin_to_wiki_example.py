@@ -37,7 +37,7 @@ def main() -> None:
     email = require_env("GARMIN_EMAIL")
     password = require_env("GARMIN_PASSWORD")
 
-    wiki_dir = Path(os.environ.get("LLM_WIKI_DIR", "wiki"))
+    wiki_dir = Path(os.environ.get("LLM_WIKI_DIR", ".wiki"))
     raw_dir = wiki_dir / "raw" / "health" / "garmin"
     entity_dir = wiki_dir / "entities"
     raw_dir.mkdir(parents=True, exist_ok=True)
