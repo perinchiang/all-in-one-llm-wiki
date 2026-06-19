@@ -10,7 +10,9 @@
 
 Export your digital life into an **AI-readable LLM Wiki**, so your Agent no longer has to start from scratch getting to know you.
 
-This is not a "pretty knowledge base for humans." It's more like a long-term context layer for AI/Agents: organizing notes, AI memory, music, movies, video platforms, browsers, health, games, toolchains, NAS, and other data into a structured Markdown Wiki, so that Agents can understand your real background when answering, recommending, planning, and automating.
+This is not a “pretty knowledge base for humans.” It’s more like a long-term context layer for AI/Agents: organizing notes, AI memory, music, movies, video platforms, browsers, health, games, toolchains, NAS, and other data into a structured Markdown Wiki, so that Agents can understand your real background when answering, recommending, planning, and automating.
+
+Just like you wouldn't read all your notes at once — you'd check the table of contents first, then flip to the page you need. The Wiki distills raw data from every platform into a structured index. The Agent loads on demand, no need to ingest everything.
 
 ## Compatible Agents
 
@@ -50,7 +52,7 @@ Agent: You've marked 327 movies as "watched" on Douban, with ratings
 concentrated in the 7-8 range. You prefer thriller and sci-fi, and
 tend to rate pure romance films lower. You recently favorited some
 "high-IQ mind-bending" clips on Bilibili.
-Recommended: "The Invisible Guest" — a Spanish thriller with tight
+Recommended: "The Invisible Guest" - a Spanish thriller with tight
 pacing. You rated "Knives Out" 8/10, similar style.
 ```
 
@@ -184,9 +186,9 @@ confidence: high
 - Source: export/API/manual source
 - Method: command, script, or manual steps
 - Created:
-  - entities/example.md — summary
+  - entities/example.md - summary
 - Updated:
-  - index.md — added source summary
+  - index.md - added source summary
 - Privacy: raw data private; public version uses aggregates only
 - Notes: parser assumptions, skipped files, anomalies
 ```
