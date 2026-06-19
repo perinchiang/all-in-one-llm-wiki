@@ -17,34 +17,16 @@ The current version is a **general Agent Skill / starter kit**:
 
 It is not a fully automated data collector, and it does not read your private data by default. Real ingestion should happen only after you provide a source or authorize a scope.
 
-## Quick Install (General Agent Skill)
-
-This repository is not Hermes-specific. Any agent that can read repository files and `SKILL.md` can use it.
-
-### Hermes
+## Quick Install
 
 ```bash
 mkdir -p ~/.hermes/skills
 git clone https://github.com/perinchiang/all-in-one-llm-wiki ~/.hermes/skills/all-in-one-llm-wiki
 ```
 
-After installation, tell Hermes:
+Or just send this to your LLM Agent:
 
-> Use all-in-one-llm-wiki to create a private .wiki/ in my vault from my exported Bilibili/Spotify/AI memory files.
-
-### Claude Code / Codex / Other Local Agents
-
-Clone this repository into your project or into a skills/tools directory that your agent can read, then ask the agent to read `SKILL.md`:
-
-```bash
-git clone https://github.com/perinchiang/all-in-one-llm-wiki
-```
-
-You can tell the agent:
-
-> Read `SKILL.md` in `all-in-one-llm-wiki` and use it to initialize a private `.wiki/` from my authorized exports.
-
-If your agent has no skill mechanism, you can still use `SKILL.md`, `references/privacy.md`, and `references/wiki-schema.md` as plain Markdown guidance.
+> Use https://github.com/perinchiang/all-in-one-llm-wiki to create a private .wiki/ in my Obsidian vault from my exported Bilibili/Spotify/AI memory files.
 
 ## 5-Minute Local Demo
 

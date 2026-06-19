@@ -17,34 +17,16 @@
 
 它不是全自动采集器，也不默认读取你的隐私数据。真实导入前，应该由你明确提供数据源或授权范围。
 
-## 快速安装（通用 Agent Skill）
-
-这个仓库不是 Hermes 专属。任何能读取仓库文件和 `SKILL.md` 的 Agent 都可以使用。
-
-### Hermes
+## 快速安装
 
 ```bash
 mkdir -p ~/.hermes/skills
 git clone https://github.com/perinchiang/all-in-one-llm-wiki ~/.hermes/skills/all-in-one-llm-wiki
 ```
 
-安装后，对 Hermes 说：
+或者直接发给你的 LLM Agent：
 
-> Use all-in-one-llm-wiki to create a private .wiki/ in my vault from my exported Bilibili/Spotify/AI memory files.
-
-### Claude Code / Codex / 其他本地 Agent
-
-把仓库 clone 到你的项目或 Agent 可读取的 skills/tools 目录，然后让 Agent 读取 `SKILL.md`：
-
-```bash
-git clone https://github.com/perinchiang/all-in-one-llm-wiki
-```
-
-可直接对 Agent 说：
-
-> Read `SKILL.md` in `all-in-one-llm-wiki` and use it to initialize a private `.wiki/` from my authorized exports.
-
-如果你的 Agent 没有 Skill 机制，也可以把 `SKILL.md`、`references/privacy.md`、`references/wiki-schema.md` 当作普通 Markdown 指南使用。
+> Use https://github.com/perinchiang/all-in-one-llm-wiki to create a private .wiki/ in my Obsidian vault from my exported Bilibili/Spotify/AI memory files.
 
 ## 5 分钟本地体验
 
