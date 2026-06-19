@@ -28,34 +28,6 @@ Or just send this to your LLM Agent:
 
 > Use https://github.com/perinchiang/all-in-one-llm-wiki to create a private .wiki/ in my Obsidian vault from my exported Bilibili/Spotify/AI memory files.
 
-## 5-Minute Local Demo
-
-Start with synthetic data instead of real private exports:
-
-```bash
-git clone https://github.com/perinchiang/all-in-one-llm-wiki
-cd all-in-one-llm-wiki
-python scripts/init_wiki.py --demo
-```
-
-This creates:
-
-```text
-.wiki/
-  SCHEMA.md
-  index.md
-  log.md
-  entities/demo-profile.md
-  concepts/context-home.md
-  raw/
-```
-
-To create a private wiki skeleton for yourself:
-
-```bash
-python scripts/init_wiki.py
-```
-
 ## What Problem Does It Solve
 
 The problem with ordinary AI conversations is: every time you have to re-explain who you are, what you're doing, what you like, what tools you have, and what stage you're at.

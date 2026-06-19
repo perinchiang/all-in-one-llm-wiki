@@ -28,34 +28,6 @@ git clone https://github.com/perinchiang/all-in-one-llm-wiki ~/.hermes/skills/al
 
 > Use https://github.com/perinchiang/all-in-one-llm-wiki to create a private .wiki/ in my Obsidian vault from my exported Bilibili/Spotify/AI memory files.
 
-## 5 分钟本地体验
-
-先不要放真实隐私数据，用合成 demo 跑通结构：
-
-```bash
-git clone https://github.com/perinchiang/all-in-one-llm-wiki
-cd all-in-one-llm-wiki
-python scripts/init_wiki.py --demo
-```
-
-运行后会生成：
-
-```text
-.wiki/
-  SCHEMA.md
-  index.md
-  log.md
-  entities/demo-profile.md
-  concepts/context-home.md
-  raw/
-```
-
-正式给自己建私有 Wiki 时：
-
-```bash
-python scripts/init_wiki.py
-```
-
 ## 它解决什么问题
 
 普通 AI 对话的问题是：每次都要重新解释自己是谁、在做什么、喜欢什么、有哪些工具、现在处于什么阶段。
