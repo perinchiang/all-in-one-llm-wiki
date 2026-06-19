@@ -91,7 +91,6 @@ All in One LLM Wiki 的目标是:
 | Steam | Steam Web API | 游戏库、游玩时长、游戏类型偏好 | 中 |
 | NAS / 媒体库 | SSH 扫描 + MoviePilot/qBittorrent/Jellyfin API | 本地媒体库、自动化能力 | 高 |
 | 日历 | ICS / CalDAV / 平台导出 | 时间安排、低频/高频日程 | 高 |
-| 咖啡 / 生活记录 | Markdown、CSV、表格或手动日志 | 生活偏好、消费习惯、作息线索 | 中 |
 | 服务账号 / 工具链 | 手动清单、邮箱摘要、密码管理器分类导出 | 可用工具、云服务、自动化平台 | 高 |
 
 > 详细的逐项导出方法(含代码、脚本、隐私建议):[docs/export-guides.md](docs/export-guides.md)

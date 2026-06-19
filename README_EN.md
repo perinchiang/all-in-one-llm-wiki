@@ -93,7 +93,6 @@ For example:
 | Steam | Steam Web API | Game library, playtime, game genre preferences | Medium |
 | NAS / Media Library | SSH scan + MoviePilot/qBittorrent/Jellyfin API | Local media library, automation capabilities | High |
 | Calendar | ICS / CalDAV / platform export | Schedule, low-frequency / high-frequency events | High |
-| Coffee / Lifestyle Logs | Markdown, CSV, spreadsheet, or manual logs | Lifestyle preferences, spending habits, routine clues | Medium |
 | Service Accounts / Toolchain | Manual checklist, email summary, password manager category export | Available tools, cloud services, automation platforms | High |
 
 > Detailed export methods (with code, scripts, and privacy advice): [docs/export-guides_EN.md](docs/export-guides_EN.md)
