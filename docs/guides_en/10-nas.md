@@ -3,7 +3,6 @@
 Available methods:
 
 - SSH scan of directory structure.
-- MoviePilot API.
 - qBittorrent API.
 - Jellyfin / Emby / Plex API.
 

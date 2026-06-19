@@ -91,7 +91,7 @@ For example:
 | Douban | Save profile page / entry data or self-crawl, parse ratings and short reviews | Movie, book, game taste | Medium |
 | Google Takeout | Chrome / YouTube export | Browser toolchain, YouTube subscriptions and playlists | High |
 | Steam | Steam Web API | Game library, playtime, game genre preferences | Medium |
-| NAS / Media Library | SSH scan + MoviePilot/qBittorrent/Jellyfin API | Local media library, automation capabilities | High |
+| NAS / Media Library | SSH scan + qBittorrent/Jellyfin API | Local media library, automation capabilities | High |
 | Calendar | ICS / CalDAV / platform export | Schedule, low-frequency / high-frequency events | High |
 | Service Accounts / Toolchain | Manual checklist, email summary, password manager category export | Available tools, cloud services, automation platforms | High |
 

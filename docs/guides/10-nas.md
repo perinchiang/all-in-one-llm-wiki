@@ -3,7 +3,6 @@
 可用方式：
 
 - SSH 扫描目录结构。
-- MoviePilot API。
 - qBittorrent API。
 - Jellyfin / Emby / Plex API。
 

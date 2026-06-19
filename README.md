@@ -89,7 +89,7 @@ All in One LLM Wiki 的目标是:
 | 豆瓣 | 个人主页/条目数据保存或自爬,解析评分和短评 | 影视、书、游戏口味 | 中 |
 | Google Takeout | Chrome / YouTube 导出 | 浏览器工具链、YouTube 订阅和播放列表 | 高 |
 | Steam | Steam Web API | 游戏库、游玩时长、游戏类型偏好 | 中 |
-| NAS / 媒体库 | SSH 扫描 + MoviePilot/qBittorrent/Jellyfin API | 本地媒体库、自动化能力 | 高 |
+| NAS / 媒体库 | SSH 扫描 + qBittorrent/Jellyfin API | 本地媒体库、自动化能力 | 高 |
 | 日历 | ICS / CalDAV / 平台导出 | 时间安排、低频/高频日程 | 高 |
 | 服务账号 / 工具链 | 手动清单、邮箱摘要、密码管理器分类导出 | 可用工具、云服务、自动化平台 | 高 |
 
