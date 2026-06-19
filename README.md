@@ -2,6 +2,8 @@
 
 > [中文版](README.md) | [English](README_EN.md)
 
+▶️ [视频演示](https://www.bilibili.com/video/BV1qqji6rEyp/)
+
 把你的数字生活导出成一个 **AI 可读的 LLM Wiki**，让 Agent 不再从零认识你。
 
 这不是一个"给人看的漂亮知识库"。它更像一个给 AI/Agent 使用的长期上下文层：把笔记、AI 记忆、音乐、影视、视频平台、浏览器、健康、游戏、工具链、NAS 等数据整理成结构化 Markdown Wiki，让 Agent 能在回答、推荐、规划和自动化时读懂你的真实背景。

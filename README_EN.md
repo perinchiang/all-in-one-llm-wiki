@@ -2,6 +2,8 @@
 
 > [中文版](README.md) | English
 
+▶️ [Video Demo](https://www.bilibili.com/video/BV1qqji6rEyp/)
+
 Export your digital life into an **AI-readable LLM Wiki**, so your Agent no longer has to start from scratch getting to know you.
 
 This is not a "pretty knowledge base for humans." It's more like a long-term context layer for AI/Agents: organizing notes, AI memory, music, movies, video platforms, browsers, health, games, toolchains, NAS, and other data into a structured Markdown Wiki, so that Agents can understand your real background when answering, recommending, planning, and automating.
