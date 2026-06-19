@@ -195,5 +195,5 @@ confidence: high
 
 ## Appendix
 
-- This project is inspired by Karpathy's [LLM-Wiki](https://github.com/karpathy/llm-wiki) concept and can serve as the data ingestion layer for `llm-wiki`.
+- This project is inspired by Karpathy's [LLM-Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) concept and can serve as the data ingestion layer for `llm-wiki`.
 - Before publishing, use `PUBLISHING_CHECKLIST.md` as a final pass.

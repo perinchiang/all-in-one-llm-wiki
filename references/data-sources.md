@@ -40,7 +40,7 @@ Agent value:
 - Preserve differences between platforms.
 - Reduce repeated user onboarding.
 
-## Bilibili Via [bilibili-cli](https://github.com/JimmyLJX/bilibili-cli)
+## Bilibili Via [bilibili-cli](https://github.com/public-clis/bilibili-cli)
 
 Method:
 

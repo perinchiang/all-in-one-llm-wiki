@@ -1,4 +1,4 @@
-# Bilibili: via [bilibili-cli](https://github.com/JimmyLJX/bilibili-cli)
+# Bilibili: via [bilibili-cli](https://github.com/public-clis/bilibili-cli)
 
 Install:
 

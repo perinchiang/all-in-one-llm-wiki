@@ -1,4 +1,4 @@
-# B 站：通过 [bilibili-cli](https://github.com/JimmyLJX/bilibili-cli)
+# B 站：通过 [bilibili-cli](https://github.com/public-clis/bilibili-cli)
 
 安装：
 

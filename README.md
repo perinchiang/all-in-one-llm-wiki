@@ -193,5 +193,5 @@ confidence: high
 
 ## 附录
 
-- 本项目受 Karpathy 的 [LLM-Wiki](https://github.com/karpathy/llm-wiki) 概念启发,可作为 `llm-wiki` 的数据入口层。
+- 本项目受 Karpathy 的 [LLM-Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 概念启发,可作为 `llm-wiki` 的数据入口层。
 - 开源或发布前请按 `PUBLISHING_CHECKLIST.md` 做最后检查。
