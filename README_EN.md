@@ -4,15 +4,15 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/perinchiang/all-in-one-llm-wiki?style=social)](https://github.com/perinchiang/all-in-one-llm-wiki)
 
-▶️ [Video Demo](https://www.bilibili.com/video/BV1qqji6rEyp/)
+▶️ [Video Demo](https://www.bilibili.com/video/BV1qqji6rEyp/) ｜ 🖼️ [Visual Overview](https://www.cutenote.app/notes/856fb4a1-a62c-4836-92a4-b4a9dcde2310)
 
 ![Wiki Index Demo](assets/wiki-index-demo.png)
 
 Export your digital life into an **AI-readable LLM Wiki**, so your Agent no longer has to start from scratch getting to know you.
 
-This is not a “pretty knowledge base for humans.” It’s more like a long-term context layer for AI/Agents: organizing notes, AI memory, music, movies, video platforms, browsers, health, games, toolchains, NAS, and other data into a structured Markdown Wiki, so that Agents can understand your real background when answering, recommending, planning, and automating.
+This is not a "pretty knowledge base for humans." It's more like a long-term context layer for AI/Agents: organizing notes, AI memory, music, movies, video platforms, browsers, health, games, toolchains, NAS, and other data into a structured Markdown Wiki, so that Agents can understand your real background when answering, recommending, planning, and automating.
 
-Just like you wouldn't read all your notes at once — you'd check the table of contents first, then flip to the page you need. The Wiki distills raw data from every platform into a structured index. The Agent loads on demand, no need to ingest everything.
+Just like you wouldn't read all your notes at once - you'd check the table of contents first, then flip to the page you need. The Wiki distills raw data from every platform into a structured index. The Agent loads on demand, no need to ingest everything.
 
 ## Compatible Agents
 
@@ -41,19 +41,20 @@ Or just send this to your LLM Agent:
 
 ```text
 You: Recommend a movie
-Agent: "Inception" is a classic Nolan film with high ratings... (generic)
+Agent: “Inception” is a classic Nolan film with high ratings... (generic)
 ```
 
 **With LLM Wiki:**
 
 ```text
 You: Recommend a movie
-Agent: You've marked 327 movies as "watched" on Douban, with ratings
+Agent: You've marked 327 movies as “watched” on Douban, with ratings
 concentrated in the 7-8 range. You prefer thriller and sci-fi, and
-tend to rate pure romance films lower. You recently favorited some
-"high-IQ mind-bending" clips on Bilibili.
-Recommended: "The Invisible Guest" - a Spanish thriller with tight
-pacing. You rated "Knives Out" 8/10, similar style.
+tend to rate pure romance films lower. Your recent Bilibili favorites
+include some “high-IQ mind-bending” clips, let me take a look...
+Found it! I'd recommend “The Invisible Guest” — a Spanish thriller
+with tight pacing. A movie this perfect for you and you haven't seen
+it yet? Or would you prefer something lighter to unwind today?
 ```
 
 The Wiki transforms your Agent from "generic encyclopedia" into "assistant that actually knows you."

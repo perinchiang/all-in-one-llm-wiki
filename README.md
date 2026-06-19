@@ -4,15 +4,15 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/perinchiang/all-in-one-llm-wiki?style=social)](https://github.com/perinchiang/all-in-one-llm-wiki)
 
-▶️ [视频演示](https://www.bilibili.com/video/BV1qqji6rEyp/)
+▶️ [视频演示](https://www.bilibili.com/video/BV1qqji6rEyp/) ｜ 🖼️ [一图流](https://www.cutenote.app/notes/856fb4a1-a62c-4836-92a4-b4a9dcde2310)
 
 ![Wiki Index Demo](assets/wiki-index-demo.png)
 
-把你的数字生活导出成一个 **AI 可读的 LLM Wiki**，让 Agent 不再从零认识你。
+把你的数字生活导出成一个 **AI 可读的 LLM Wiki**,让 Agent 不再从零认识你。
 
-这不是一个“给人看的漂亮知识库”。它更像一个给 AI/Agent 使用的长期上下文层：把笔记、AI 记忆、音乐、影视、视频平台、浏览器、健康、游戏、工具链、NAS 等数据整理成结构化 Markdown Wiki，让 Agent 能在回答、推荐、规划和自动化时读懂你的真实背景。
+这不是一个"给人看的漂亮知识库"。它更像一个给 AI/Agent 使用的长期上下文层:把笔记、AI 记忆、音乐、影视、视频平台、浏览器、健康、游戏、工具链、NAS 等数据整理成结构化 Markdown Wiki,让 Agent 能在回答、推荐、规划和自动化时读懂你的真实背景。
 
-就像你不会一次性读完所有笔记，而是先看目录再翻到感兴趣的那页。Wiki 把各平台的原始数据蒸馏成一份 index，Agent 按需加载，不需要遍历全部数据。
+就像你不会一次性读完所有笔记,而是先看目录再翻到感兴趣的那页。Wiki 把各平台的原始数据蒸馏成一份 index,Agent 按需加载,不需要遍历全部数据。
 
 ## 兼容 Agent
 
@@ -40,19 +40,19 @@ git clone https://github.com/perinchiang/all-in-one-llm-wiki
 **没有 LLM Wiki 时:**
 
 ```text
-你:推荐一部电影
-Agent:《盗梦空间》是诺兰的经典作品,评分很高......(泛泛而谈)
+你：推荐一部电影
+Agent：《盗梦空间》是诺兰的经典作品，评分很高……（泛泛而谈）
 ```
 
-**有了 LLM Wiki 之后:**
+**有了 LLM Wiki 之后：**
 
 ```text
-你:推荐一部电影
-Agent:你豆瓣标记了 327 部"看过",评分集中在 7-8 分,
-偏好悬疑和科幻,对纯爱情片评分普遍偏低。
-最近 B 站收藏了几个"高智商烧脑"剪辑。
-推荐《看不见的客人》-- 西班牙悬疑片,节奏紧凑,
-你之前给《利刃出鞘》打了 8 分,风格接近。
+你：推荐一部电影
+Agent：你豆瓣标记了 327 部“看过”，评分集中在 7-8 分，
+你偏好悬疑和科幻，对纯爱情片评分普遍偏低。
+最近你的 B 站收藏了几个“高智商烧脑”剪辑，我去找找看……
+找到啦！我会推荐《看不见的客人》—— 西班牙悬疑片，节奏紧凑，
+这么适合你的电影居然没看过也太可惜了。还是今天想放松一下大脑，看点轻松的呢？
 ```
 
 Wiki 让 Agent 从"通用百科"变成"了解你的助手"。
