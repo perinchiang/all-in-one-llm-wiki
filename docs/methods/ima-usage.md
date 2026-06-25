@@ -34,10 +34,11 @@ export IMA_OPENAPI_APIKEY="your_api_key"
 
 | 方向 | 推荐关键词 | 说明 |
 |------|-----------|------|
-| 网络工程 | `HCIE` `华为` `数据中心` `网络安全` | 认证备考、技术文档 |
+| 生活技巧 | `菜谱` `烘焙` `收纳` `家居` | 厨房技巧、生活百科 |
 | AI | `AI` `Agent` `大模型` `提示词` | 行业资料、工具评测 |
 | 编程 | `Python` `JavaScript` `算法` | 教程、代码库 |
 | 阅读 | `书单` `电子书` `TED` | 书单推荐、演讲笔记 |
+| 旅行 | `攻略` `路线` `citywalk` `美食` | 出行指南、城市漫步 |
 
 ## 将 IMA 集成到 LLM Wiki
 
@@ -46,16 +47,16 @@ export IMA_OPENAPI_APIKEY="your_api_key"
 Agent 可通过 IMA API 搜索已订阅知识库中的内容:
 
 ```bash
-# 搜索华为网络知识库
+# 搜索菜谱知识库
 ima_api "openapi/wiki/v1/search_knowledge" '{
-  "query": "VXLAN",
+  "query": "红烧肉",
   "knowledge_base_id": "<kb_id>",
   "cursor": ""
 }'
 
-# 搜索 AI 资料库
+# 搜索旅行攻略库
 ima_api "openapi/wiki/v1/search_knowledge" '{
-  "query": "Agent",
+  "query": "citywalk",
   "knowledge_base_id": "<kb_id>",
   "cursor": ""
 }'
