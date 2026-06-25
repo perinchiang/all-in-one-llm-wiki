@@ -4,9 +4,9 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/perinchiang/all-in-one-llm-wiki?style=social)](https://github.com/perinchiang/all-in-one-llm-wiki)
 
-▶️ [视频演示](https://www.bilibili.com/video/BV1qqji6rEyp/) ｜ 🖼️ [一图流](https://www.cutenote.app/notes/856fb4a1-a62c-4836-92a4-b4a9dcde2310)
+▶️ [视频演示](https://www.bilibili.com/video/BV1qqji6rEyp/) ｜ 🖼️ [流程图](assets/llm-wiki-flow.png)
 
-![Wiki Index Demo](assets/wiki-index-demo.png)
+![Workflow](assets/llm-wiki-flow.png)
 
 把你的数字生活导出成一个 **AI 可读的 LLM Wiki**,让 Agent 不再从零认识你。
 
@@ -75,6 +75,7 @@ All in One LLM Wiki 的目标是:
 - 导入 Chrome / Google Takeout 后,Agent 能理解你的工具链、项目现场和注意力分布。
 - 导入 Garmin / Apple Health 后,Agent 可以结合睡眠、步数、运动记录给更接地气的生活建议。
 - 导入 AI 平台记忆后,Agent 可以合并多个 AI 对你的片段理解,减少重复解释。
+- 导入 IMA 知识库后,Agent 能搜索你订阅的公域知识库(华为网络知识、AI 资料库等),回答更专业。
 
 ## 数据入口总表
 
@@ -90,10 +91,13 @@ All in One LLM Wiki 的目标是:
 | Google Takeout | Chrome / YouTube 导出 | 浏览器工具链、YouTube 订阅和播放列表 | 高 |
 | Steam | Steam Web API | 游戏库、游玩时长、游戏类型偏好 | 中 |
 | NAS / 媒体库 | SSH 扫描 + qBittorrent/Jellyfin API | 本地媒体库、自动化能力 | 高 |
+| IMA 知识库 | IMA 客户端订阅 + OpenAPI 搜索 | 公域知识库内容、技术文档、行业资料 | 中 |
 | 日历 | ICS / CalDAV / 平台导出 | 时间安排、低频/高频日程 | 高 |
 | 服务账号 / 工具链 | 手动清单、邮箱摘要、密码管理器分类导出 | 可用工具、云服务、自动化平台 | 高 |
 
 > 详细的逐项导出方法(含代码、脚本、隐私建议):[docs/export-guides.md](docs/export-guides.md)
+> 各平台集成操作指南:[docs/methods/](docs/methods/)
+> IMA 知识库接入教程:[docs/methods/ima-usage.md](docs/methods/ima-usage.md)
 
 ## 目录结构
 

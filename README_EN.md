@@ -4,9 +4,9 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/perinchiang/all-in-one-llm-wiki?style=social)](https://github.com/perinchiang/all-in-one-llm-wiki)
 
-▶️ [Video Demo](https://www.bilibili.com/video/BV1qqji6rEyp/) ｜ 🖼️ [Visual Overview](https://www.cutenote.app/notes/856fb4a1-a62c-4836-92a4-b4a9dcde2310)
+▶️ [Video Demo](https://www.bilibili.com/video/BV1qqji6rEyp/) ｜ 🖼️ [Flow Diagram](assets/llm-wiki-flow.png)
 
-![Wiki Index Demo](assets/wiki-index-demo.png)
+![Workflow](assets/llm-wiki-flow.png)
 
 Export your digital life into an **AI-readable LLM Wiki**, so your Agent no longer has to start from scratch getting to know you.
 
