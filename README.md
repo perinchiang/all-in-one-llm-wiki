@@ -4,7 +4,9 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/perinchiang/all-in-one-llm-wiki?style=social)](https://github.com/perinchiang/all-in-one-llm-wiki)
 
-▶️ [视频演示](https://www.bilibili.com/video/BV1qqji6rEyp/) ｜ 🖼️ [流程图](assets/llm-wiki-flow.png)
+▶️ [视频演示](https://www.bilibili.com/video/BV1qqji6rEyp/) ｜ 🖼️ [一图流](https://www.cutenote.app/notes/856fb4a1-a62c-4836-92a4-b4a9dcde2310) ｜ 🖼️ [流程图](assets/llm-wiki-flow.png)
+
+![Wiki Index Demo](assets/wiki-index-demo.png)
 
 ![Workflow](assets/llm-wiki-flow.png)
 
