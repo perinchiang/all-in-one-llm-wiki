@@ -83,23 +83,21 @@ All in One LLM Wiki 的目标是:
 
 | 入口 | 推荐导出方式 | 适合沉淀成什么 | 隐私级别 |
 | --- | --- | --- | --- |
-| Obsidian / 本地笔记 | 直接读取 Markdown 文件夹 | 学习阶段、项目、概念、术语 | 中 |
-| AI 平台记忆 | 向平台询问/导出长期记忆,手动保存 Markdown | 跨平台自我画像、偏好、长期目标 | 高 |
-| B 站 | `bilibili-cli` 登录后导出 history / favorites / following | 当前兴趣、学习视频、创作者偏好 | 中高 |
+| [Obsidian / 本地笔记](docs/guides/01-obsidian.md) | 直接读取 Markdown 文件夹 | 学习阶段、项目、概念、术语 | 中 |
+| [AI 平台记忆](docs/guides/02-ai-memory.md) | 向平台询问/导出长期记忆,手动保存 Markdown | 跨平台自我画像、偏好、长期目标 | 高 |
+| [B 站](docs/guides/03-bilibili.md) | `bilibili-cli` 登录后导出 history / favorites / following | 当前兴趣、学习视频、创作者偏好 | 中高 |
 | Garmin | Python `garminconnect` 脚本拉取摘要 | 睡眠、步数、运动、恢复建议 | 高 |
 | Apple Health | iPhone 健康 App 头像 → 导出全部健康数据 | 长期健康趋势、运动历史 | 高 |
-| Spotify | Spotify Web API / OAuth | 音乐品味、场景歌单、艺术家偏好 | 中 |
-| 豆瓣 | 个人主页/条目数据保存或自爬,解析评分和短评 | 影视、书、游戏口味 | 中 |
-| Google Takeout | Chrome / YouTube 导出 | 浏览器工具链、YouTube 订阅和播放列表 | 高 |
-| Steam | Steam Web API | 游戏库、游玩时长、游戏类型偏好 | 中 |
-| NAS / 媒体库 | SSH 扫描 + qBittorrent/Jellyfin API | 本地媒体库、自动化能力 | 高 |
-| IMA 知识库 | IMA 客户端订阅 + OpenAPI 搜索 | 公域知识库内容、技术文档、行业资料 | 中 |
-| 日历 | ICS / CalDAV / 平台导出 | 时间安排、低频/高频日程 | 高 |
+| [Spotify](docs/guides/06-spotify.md) | Spotify Web API / OAuth | 音乐品味、场景歌单、艺术家偏好 | 中 |
+| [豆瓣](docs/guides/07-douban.md) | 个人主页/条目数据保存或自爬,解析评分和短评 | 影视、书、游戏口味 | 中 |
+| [Google Takeout](docs/guides/12-google-github.md) | Chrome / YouTube 导出 | 浏览器工具链、YouTube 订阅和播放列表 | 高 |
+| [Steam](docs/guides/09-steam.md) | Steam Web API | 游戏库、游玩时长、游戏类型偏好 | 中 |
+| [NAS / 媒体库](docs/guides/10-nas.md) | SSH 扫描 + qBittorrent/Jellyfin API | 本地媒体库、自动化能力 | 高 |
+| [IMA 知识库](docs/methods/ima-usage.md) | IMA 客户端订阅 + OpenAPI 搜索 | 公域知识库内容、技术文档、行业资料 | 中 |
+| [日历](docs/guides/11-calendar.md) | ICS / CalDAV / 平台导出 | 时间安排、低频/高频日程 | 高 |
 | 服务账号 / 工具链 | 手动清单、邮箱摘要、密码管理器分类导出 | 可用工具、云服务、自动化平台 | 高 |
 
-> 详细的逐项导出方法(含代码、脚本、隐私建议):[docs/export-guides.md](docs/export-guides.md)
-> 各平台集成操作指南:[docs/methods/](docs/methods/)
-> IMA 知识库接入教程:[docs/methods/ima-usage.md](docs/methods/ima-usage.md)
+> 点击表格中对应的链接，即可获得配置指南
 
 ## 目录结构
 
