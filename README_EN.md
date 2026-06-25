@@ -79,27 +79,27 @@ For example:
 - After importing Chrome / Google Takeout, the Agent can understand your toolchain, project context, and attention distribution.
 - After importing Garmin / Apple Health, the Agent can combine sleep, steps, and exercise records to give more grounded lifestyle advice.
 - After importing AI platform memories, the Agent can merge fragmented understandings of you from multiple AIs, reducing repeated explanations.
+- After importing IMA knowledge bases, the Agent can search your subscribed public knowledge bases for more professional answers.
 
 ## Data Ingestion Overview
 
 | Entry Point | Recommended Export Method | What to Distill | Privacy Level |
 | --- | --- | --- | --- |
-| Obsidian / Local Notes | Directly read Markdown folder | Learning stages, projects, concepts, terminology | Medium |
-| AI Platform Memory | Ask platform / export long-term memory, manually save as Markdown | Cross-platform self-profile, preferences, long-term goals | High |
-| Bilibili | `bilibili-cli` login then export history / favorites / following | Current interests, learning videos, creator preferences | Medium-High |
-| Garmin | Python `garminconnect` script to pull summaries | Sleep, steps, exercise, recovery suggestions | High |
-| Apple Health | iPhone Health App avatar → Export All Health Data | Long-term health trends, exercise history | High |
-| Spotify | Spotify Web API / OAuth | Music taste, scene playlists, artist preferences | Medium |
-| Douban | Save profile page / entry data or self-crawl, parse ratings and short reviews | Movie, book, game taste | Medium |
-| Google Takeout | Chrome / YouTube export | Browser toolchain, YouTube subscriptions and playlists | High |
-| Steam | Steam Web API | Game library, playtime, game genre preferences | Medium |
-| NAS / Media Library | SSH scan + qBittorrent/Jellyfin API | Local media library, automation capabilities | High |
-| Calendar | ICS / CalDAV / platform export | Schedule, low-frequency / high-frequency events | High |
+| [Obsidian / Local Notes](docs/guides_en/01-obsidian.md) | Directly read Markdown folder | Learning stages, projects, concepts, terminology | Medium |
+| [AI Platform Memory](docs/guides_en/02-ai-memory.md) | Ask platform / export long-term memory, manually save as Markdown | Cross-platform self-profile, preferences, long-term goals | High |
+| [Bilibili](docs/guides_en/03-bilibili.md) | `bilibili-cli` login then export history / favorites / following | Current interests, learning videos, creator preferences | Medium-High |
+| [Garmin](docs/guides_en/04-garmin.md) | Python `garminconnect` script to pull summaries | Sleep, steps, exercise, recovery suggestions | High |
+| [Apple Health](docs/guides_en/05-apple-health.md) | iPhone Health App avatar → Export All Health Data | Long-term health trends, exercise history | High |
+| [Spotify](docs/guides_en/06-spotify.md) | Spotify Web API / OAuth | Music taste, scene playlists, artist preferences | Medium |
+| [Douban](docs/guides_en/07-douban.md) | Save profile page / entry data or self-crawl, parse ratings and short reviews | Movie, book, game taste | Medium |
+| [Google Takeout](docs/guides_en/12-google-github.md) | Chrome / YouTube export | Browser toolchain, YouTube subscriptions and playlists | High |
+| [Steam](docs/guides_en/09-steam.md) | Steam Web API | Game library, playtime, game genre preferences | Medium |
+| [NAS / Media Library](docs/guides_en/10-nas.md) | SSH scan + qBittorrent/Jellyfin API | Local media library, automation capabilities | High |
+| [IMA Knowledge Base](docs/methods/ima-usage.md) | IMA client subscription + OpenAPI search | Public knowledge base content, tech docs, industry materials | Medium |
+| [Calendar](docs/guides_en/11-calendar.md) | ICS / CalDAV / platform export | Schedule, low-frequency / high-frequency events | High |
 | Service Accounts / Toolchain | Manual checklist, email summary, password manager category export | Available tools, cloud services, automation platforms | High |
 
-> Detailed export methods (with code, scripts, and privacy advice): [docs/export-guides_EN.md](docs/export-guides_EN.md)
-> Integration guides: [docs/methods/](docs/methods/)
-> IMA knowledge base tutorial: [docs/methods/ima-usage.md](docs/methods/ima-usage.md)
+> Click the links above for setup guides
 
 ## Directory Structure
 

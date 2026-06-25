@@ -86,8 +86,8 @@ All in One LLM Wiki 的目标是:
 | [Obsidian / 本地笔记](docs/guides/01-obsidian.md) | 直接读取 Markdown 文件夹 | 学习阶段、项目、概念、术语 | 中 |
 | [AI 平台记忆](docs/guides/02-ai-memory.md) | 向平台询问/导出长期记忆,手动保存 Markdown | 跨平台自我画像、偏好、长期目标 | 高 |
 | [B 站](docs/guides/03-bilibili.md) | `bilibili-cli` 登录后导出 history / favorites / following | 当前兴趣、学习视频、创作者偏好 | 中高 |
-| Garmin | Python `garminconnect` 脚本拉取摘要 | 睡眠、步数、运动、恢复建议 | 高 |
-| Apple Health | iPhone 健康 App 头像 → 导出全部健康数据 | 长期健康趋势、运动历史 | 高 |
+| [Garmin](docs/guides/04-garmin.md) | Python `garminconnect` 脚本拉取摘要 | 睡眠、步数、运动、恢复建议 | 高 |
+| [Apple Health](docs/guides/05-apple-health.md) | iPhone 健康 App 头像 → 导出全部健康数据 | 长期健康趋势、运动历史 | 高 |
 | [Spotify](docs/guides/06-spotify.md) | Spotify Web API / OAuth | 音乐品味、场景歌单、艺术家偏好 | 中 |
 | [豆瓣](docs/guides/07-douban.md) | 个人主页/条目数据保存或自爬,解析评分和短评 | 影视、书、游戏口味 | 中 |
 | [Google Takeout](docs/guides/12-google-github.md) | Chrome / YouTube 导出 | 浏览器工具链、YouTube 订阅和播放列表 | 高 |
