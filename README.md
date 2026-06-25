@@ -77,7 +77,7 @@ All in One LLM Wiki 的目标是:
 - 导入 Chrome / Google Takeout 后,Agent 能理解你的工具链、项目现场和注意力分布。
 - 导入 Garmin / Apple Health 后,Agent 可以结合睡眠、步数、运动记录给更接地气的生活建议。
 - 导入 AI 平台记忆后,Agent 可以合并多个 AI 对你的片段理解,减少重复解释。
-- 导入 IMA 知识库后,Agent 能搜索你订阅的公域知识库(华为网络知识、AI 资料库等),回答更专业。
+- 导入 IMA 知识库后,Agent 能搜索你订阅的公域知识库(菜谱大全、旅行攻略、AI 资料等),回答更专业。
 
 ## 数据入口总表
 
