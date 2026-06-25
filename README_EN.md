@@ -4,9 +4,11 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/perinchiang/all-in-one-llm-wiki?style=social)](https://github.com/perinchiang/all-in-one-llm-wiki)
 
-▶️ [Video Demo](https://www.bilibili.com/video/BV1qqji6rEyp/) ｜ 🖼️ [Flow Diagram](assets/llm-wiki-flow.png)
+▶️ [Video Demo](https://www.bilibili.com/video/BV1qqji6rEyp/)
 
-![Workflow](assets/llm-wiki-flow.png)
+![Cover](assets/llm-wiki-cover.png)
+
+![Wiki Index Demo](assets/wiki-index-demo.png)
 
 Export your digital life into an **AI-readable LLM Wiki**, so your Agent no longer has to start from scratch getting to know you.
 
@@ -96,6 +98,8 @@ For example:
 | Service Accounts / Toolchain | Manual checklist, email summary, password manager category export | Available tools, cloud services, automation platforms | High |
 
 > Detailed export methods (with code, scripts, and privacy advice): [docs/export-guides_EN.md](docs/export-guides_EN.md)
+> Integration guides: [docs/methods/](docs/methods/)
+> IMA knowledge base tutorial: [docs/methods/ima-usage.md](docs/methods/ima-usage.md)
 
 ## Directory Structure
 
